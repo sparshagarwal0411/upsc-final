@@ -209,26 +209,7 @@ const HomePage: React.FC = () => {
       </div>
 
       
-      {/* Quick Links */}
-      <div className="bg-slate-200/20 dark:bg-slate-800/30 rounded-lg shadow-lg p-7 hover-lift">
-        <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-6">
-          {t('dashboard.quickLinks')}
-        </h2>
-        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
-          {quickLinks.map((link, index) => (
-            <a
-              key={index}
-              href={link.href}
-              className="flex items-center p-5 bg-gray-300/20 dark:bg-gray-900 rounded-lg hover:shadow-md transition-all duration-200 hover:scale-105 hover-lift"
-            >
-              <div className={`${link.color} p-3 rounded-lg mr-4`}>
-                <link.icon size={20} className="text-white" />
-              </div>
-              <span className="font-medium text-gray-900 dark:text-white">{link.name}</span>
-            </a>
-          ))}
-        </div>
-      </div>
+     
 
       {/* Coming Soon Features */}
       {/* <div className="bg-gradient-to-r from-purple-600 to-pink-600 dark:from-purple-800 dark:to-pink-800 text-white rounded-2xl p-8 hover-lift">
