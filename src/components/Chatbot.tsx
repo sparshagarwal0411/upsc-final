@@ -36,7 +36,7 @@ const Chatbot: React.FC = () => {
     try {
       setIsLoading(true);
       
-      const response = await fetch('https:///ask', {
+      const response = await fetch('https://igdt.adityaexp.dev/ask', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
