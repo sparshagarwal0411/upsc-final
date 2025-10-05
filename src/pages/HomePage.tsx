@@ -50,10 +50,10 @@ const HomePage: React.FC = () => {
   ];
 
   const quickLinks = [
-    { name: 'Download Admit Card', icon: FileText, href: '/application-status', color: 'bg-blue-700 dark:bg-cyan-400' },
-    { name: 'Previous Year Papers', icon: BookOpen, href: '/past-papers', color: 'bg-cyan-500 dark:bg-blue-700' },
-    { name: 'Syllabus & Pattern', icon: Star, href: '/resources', color: 'bg-blue-700 dark:bg-cyan-400' },
-    { name: 'Current Affairs', icon: TrendingUp, href: '/resources', color: 'bg-cyan-500 dark:bg-blue-700' },
+    { name: 'Download Admit Card', icon: FileText, href: 'https://upsc-final-1.vercel.app/login', color: 'bg-blue-700 dark:bg-cyan-400' },
+    { name: 'Previous Year Papers', icon: BookOpen, href: 'https://upsc-final-1.vercel.app/past-papers', color: 'bg-cyan-500 dark:bg-blue-700' },
+    { name: 'Syllabus & Pattern', icon: Star, href: 'https://upsc-final-1.vercel.app/resources', color: 'bg-blue-700 dark:bg-cyan-400' },
+    { name: 'Current Affairs', icon: TrendingUp, href: 'https://upsc-final-1.vercel.app/resources', color: 'bg-cyan-500 dark:bg-blue-700' },
   ];
 
   const stats = [
